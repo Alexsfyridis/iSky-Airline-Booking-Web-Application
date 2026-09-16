@@ -1,13 +1,29 @@
-Files included in this web project:
-- domain: Flight, Passenger, Reservation
-- repo: FlightRepository, PassengerRepository, ReservationRepository
-- service: FlightService, PassengerService, ReservationService
-- views: HomePage, FlightView, DummyView
-- iSkyApplication main class
-- application.properties
+# iSky Airline Booking Web Application
 
-Before running:
-1. Make sure your JavaFX iSky app has already created and filled the same H2 database file.
-2. Update spring.datasource.url so it points to the exact same physical database file.
-3. Run with Java 17.
-4. If IntelliJ shows Maven issues, reload Maven after opening the project.
+A Java web application for browsing flights and creating passenger
+reservations, built using Spring Boot, Vaadin, JPA, H2, and Maven.
+
+## Features
+
+- View available flights
+- Search flights by destination
+- Create passenger reservations
+- Validate passenger information
+- Store flight, passenger, and reservation data
+- Interactive Vaadin web interface
+
+## Technologies
+
+- Java 17
+- Spring Boot
+- Vaadin
+- Spring Data JPA
+- H2 Database
+- Maven
+
+## Project Structure
+
+- `domain` – Flight, Passenger, and Reservation entities
+- `repo` – Database repositories
+- `service` – Application/business logic
+- `views` – Vaadin user interface
